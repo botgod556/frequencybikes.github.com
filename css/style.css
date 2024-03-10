@@ -143,10 +143,10 @@ body {
 
 #footer-row {
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     background-color: #0C0D0D;
 }
 
