@@ -81,8 +81,13 @@ body {
     padding-bottom: 0px;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
-    font-size: 2rem;
+    font-size: 5rem;
     color: #D3D3D3;
+}
+
+#link-404-div {
+    display: flex;
+    justify-content: center;
 }
 
 #link-404 {
