@@ -85,8 +85,12 @@ body {
     color: #D3D3D3;
 }
 
+#div-link404 {
+    display: flex;
+    justify-content: center;
+}
+
 #link-404 {
-    margin: 0 auto;
     font-family: Verdana, Geneva, sans-serif;
     text-decoration: underline;
     color: #D3D3D3;
