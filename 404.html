@@ -1,274 +1,54 @@
-
-<!DOCTYPE html>
-<html lang="en" >
-
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <title>Frequency Bikes</title>
+    <meta name="generator" content="GrapesJS Studio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="img/frequencybike-logo.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="5;url=https://frequencybikes.com">
-
-    <meta name="apple-mobile-web-app-title" content="CodePen">
-
-
-  <title>404 Not Found</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
-  
-<style>
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  background: #ffffff;
-  overflow: hidden;
-}
-
-.terminal-window {
-  text-align: left;
-  width: 37.5rem;
-  height: 22.5rem;
-  border-radius: 0.625rem;
-  margin: auto;
-  position: relative;
-  top: 10.5rem;
-}
-
-.terminal-window header {
-  background: #e0e8f0;
-  height: 1.875rem;
-  border-radius: 0.5rem 0.5rem 0 0;
-  padding-left: 0.625rem;
-}
-
-.terminal-window header .button {
-  width: 0.75rem;
-  height: 0.75rem;
-  margin: 0.625rem 0.25rem 0 0;
-  display: inline-block;
-  border-radius: 0.5rem;
-}
-
-.terminal-window header .button.green {
-  background: #3bb662;
-}
-
-.terminal-window header .button.yellow {
-  background: #e5c30f;
-}
-
-.terminal-window header .button.red {
-  background: #e75448;
-}
-
-.terminal-window section.terminal {
-  color: white;
-  font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-  font-size: 11pt;
-  background: #30353a;
-  padding: 0.625rem;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100%;
-  top: 1.875rem;
-  bottom: 0;
-  overflow: auto;
-}
-
-.terminal-window section.terminal .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.terminal-data {
-  display: none;
-}
-.terminal-window .gray {
-  color: gray;
-}
-.terminal-window .green {
-  color: green;
-}
-
-/*Media for mobile responsive viewing*/
-@media only screen and (max-width: 600px) {
-  .terminal-window {
-    text-align: left;
-    width: 37.5vmin;
-    height: 22.5vmin;
-    border-radius: 0.625vmin;
-    margin: auto;
-    position: relative;
-    top: 30.5vmin;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window header {
-    background: #e0e8f0;
-    height: 1.875vmin;
-    border-radius: 0.5vmin 0.5vmin 0 0;
-    padding-left: 1vmin;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window header .button {
-    width: 0.75vmin;
-    height: 0.75vmin;
-    margin: 0.625vmin 0.25vmin 0 0;
-    display: inline-block;
-    border-radius: 0.5vmin;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window header .button.green {
-    background: #3bb662;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window header .button.yellow {
-    background: #e5c30f;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window header .button.red {
-    background: #e75448;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .terminal-window section.terminal {
-    color: white;
-    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
-    font-size: 0.6875vmin;
-    background: #30353a;
-    padding: 0.625vmin;
-    box-sizing: border-box;
-    position: absolute;
-    width: 100%;
-    top: 1.875vmin;
-    bottom: 0;
-    overflow: auto;
-  }
-}
-.terminal-window section.terminal .typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.terminal-data {
-  display: none;
-}
-.terminal-window .gray {
-  color: gray;
-}
-.terminal-window .green {
-  color: green;
-}
-</style>
-
-  
-  
-  
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/sticky-footer.css">
 </head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar-wrapper">
+        <div class="background-bar"></div>
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/frequencybike-logo.png" width="50" alt="Frequency Bikes Logo">
+            </div>
+            <div class="nav-links">
+                <a href="https://frequencybikes.com">Home</a>
+                <a href="https://frequencybikes.com/about">About</a>
+                <a href="https://frequencybikes.com/contact">Contact</a>
+                <a href="https://frequencybikes.com/shop">Shop</a>
+            </div>
+            <div class="burger-menu" onclick="toggleNav()">&#9776;</div>
+        </div>
+    </div>
 
-<body translate="no">
-  <div id="particles-js"></div>
-<div class="terminal-window">
-  <header>
-    <div class="button green"></div>
-    <div class="button yellow"></div>
-    <div class="button red"></div>
-  </header>
-  <section class="terminal">
-    <div class="history"></div>
-    $ 404 Not Found&nbsp;<span class="prompt"></span><br>
-    $ redirecting...&nbsp;<span class="prompt"></span>
-    <span class="typed-cursor"></span>
+    <div class="content-wrapper">
+        <div id="spacer">
+            <h1 id="header-404">404 Not Foud</h1>
+            <a id="link-404" href="https://frequencybikes.com">Return Home</a>
+        </div>
+        <div class="sticky-footer">
+        </div>
+    </div>
 
-  </section>
-</div>
-<!-- data -->
-<div class="terminal-data mimik-run-output">
-  <br>Found 1 feature<br>
-  ----------------------------------------------<br>
-  Feature: Bottles <span class="gray"># ./features/bottles.feature</span><br><br>
+    <div class="footer">
+        <div id="footer-row" class="grid-row">
+            <div id="footer-column" class="grid-column">
+                <div id="copyright-text" class="text-blue">Copyright © 2024 Frequencybikes</div>
+            </div>
+        </div>
+    </div>
 
- 
-
-
+    <!-- JavaScript for the burger menu -->
+    <script src="./js/navbar.js"></script>
+    <script src="./js/sticky-footer.js"></script>
 </body>
-
 </html>
