@@ -135,6 +135,56 @@ body {
     text-decoration: underline;
 }
 
+#social-block {
+    padding-bottom: 0px;
+    padding-top: 10px
+}
+
+#social-block1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2rem;
+    color: #D3D3D3;
+}
+
+#social-block2 {
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2rem;
+    display: inline-block;
+    color: #D3D3D3;
+}
+
+#social-block3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: inline;
+    position: relative;
+    bottom: 5px;
+}
+
+#social-link {
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: inline;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    top: 25px;
+    color: #D3D3D3;
+    text-decoration: underline;
+}
+
 #footer-column {
     max-width: 1200px;
     display: flex;
