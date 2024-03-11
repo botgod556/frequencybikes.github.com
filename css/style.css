@@ -74,17 +74,18 @@ body {
     color: inherit;
 }
 
-.header-404 {
+#header-404 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 0px;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
+    font-size: 2rem;
     color: #D3D3D3;
 }
 
-.link-404 {
+#link-404 {
     padding: 10px;
     text-align: center;
     font-family: Verdana, Geneva, sans-serif;
